@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Devera Store</h2>
+    </header>
+    <nav>
+      <a href="">Hotest</a>
+      <a href="">Best Seller</a>
+      <a href="">Trending</a>
+      <a href="">Sport</a>
+      <a href="">Music</a>
+    </nav>
+
+    <div class="div-content">
+      <h2>Add Product</h2>
+      <form action="">
+        <div class="form-content">
+          <label class="namelabel" for="productName">Product name</label>
+          <input type="text" id="productName" placeholder="name" />
+
+          <label class="leftside namelabel" for="category">Category</label>
+          <select name="category" id="category">
+            <option disabled selected value>Select</option>
+            <option value="non">non</option>
+            <option value="k">Kits</option>
+            <option value="devera">Devera</option>
+          </select>
+        </div>
+        <div class="form-content">
+          <label class="namelabel" for="price">Price</label>
+          <input type="number" />
+          <label class="namelabel leftside"></label>
+          <input type="checkbox" name="free" name="free" checked /> Free Ship
+        </div>
+        <div class="form-content">
+          <label style="vertical-align: top;" class="namelabel" for="description">Description</label>
+          <textarea id="description" rows="4" cols="25"> </textarea>
+        </div>
+        <div>
+          <label style="vertical-align: top;" class="namelabel" for="image">image</label>
+          <img
+            src="https://th.bing.com/th/id/OIP.ldX6_AVQTNsbfVjccyr7ZwAAAA?w=246&h=180&c=7&r=0&o=5&pid=1.7"
+            alt=""
+          />
+        </div>
+        <label class="namelabel"></label>
+
+        <div class="radio-button">
+          <div>
+            <label for="china">
+              <input type="radio" name="country" id="china" />china
+            </label>
+          </div>
+
+          <div>
+              <label for="vietnam">
+                  <input type="radio" name="country" id="vietnam" checked />vietnam
+                </label>
+                <input class="namelabel submit-btn" type="submit" value="Create" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
